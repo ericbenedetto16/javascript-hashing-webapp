@@ -1,0 +1,35 @@
+* {
+  text-align: center;
+}
+
+#generateHash {
+  margin-top: 10px;
+}
+
+#cracking {
+  margin-top: 15px;
+}
+
+#pass {
+  text-align: left;
+}
+
+#user {
+  text-align: left;
+}
+
+#uiMessage {
+  padding: 10px 0;
+}
+
+#result {
+  padding-top: 10px;
+}
+
+#seperator {
+  margin: 0 50%;
+}
+
+h5 {
+  margin-bottom: 10px;
+}

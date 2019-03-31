@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css\style.css">
+  <script src="js\script.js"></script>
+</head>
+<body>
+  <div id="body">
+    <div id="main">
+      <h1>
+        "KellyTheRipper"*
+      </h1>
+    </div>
+    <div id="makeHash">
+      <form id="ui">
+        <input id="user" type="text" name="plaintext" maxlength="25" placeholder="Enter Something to Encrypt">
+        <input type="button" onclick="userEncrypt();" value="Encrypt">
+      </form>
+    </div>
+    <div id="uiMessage">
+      <form id="encryptedMessage">
+        <input id="newMessage" type="text" name="string" placeholder="Encrypted Message" disabled>
+      </form>
+    </div>
+    <h1> Or </h1>
+    <div id="generateHash">
+      <form id="hash">
+        <input type="button" onclick="create();" value="Generate Random KAP Hash">
+      </form>
+    </div>
+    <div id="cracking">
+      <form id="crack">
+        <input id="pass" type="text" name="password" placeholder="Enter or Generate Hash">
+        <input type="button" onclick="crack();" value="Decrypt">
+      </form>
+    </div>
+    <div id="result">
+      <input id="cracked" type="text" name="string" placeholder="Cracked KAP Hash" disabled>
+    </div>
+    <h5> *Characters past the letter w are encrypted into special characters
+          <br>and may not be displayed. In order to decrypt, make sure you
+          <br>select all space in the output box.
+    </h5>
+  </div>
+</body>
+</html>
